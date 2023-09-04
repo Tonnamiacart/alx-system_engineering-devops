@@ -1,2 +1,2 @@
 #!/bin/bash
-du tail -n 1 "iacta"
+du | tail -n 1 "iacta"
