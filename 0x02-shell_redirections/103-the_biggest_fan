@@ -1,2 +1,2 @@
 #!/bin/bash
-cat webserver.log | ./log_parser.sh
+cut -f1 web_server_logs.tsv | sort | uniq -c | sort -nr | head -n 11
