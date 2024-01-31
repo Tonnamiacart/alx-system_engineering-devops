@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 #This script writes a code to loop Best School 10 times.
 i=0
-while((i<=9))
+for((;i<=9;i++))
 do
 	echo "Best School"
-	((i++))
 done
